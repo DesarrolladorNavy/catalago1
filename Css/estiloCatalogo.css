@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+}
+body{
+    min-height: 100vh; 
+    background: linear-gradient(rgba(5, 7, 12, 0.75)), url('../Img/Aretes-de-oro-modernos-min.jpg') no-repeat center fixed;
+    background-size: cover;
+    /*ackground-repeat: no-repeat;*/
+    Background-position: center;
+}
+
+h2{
+    text-align: center;
+    color: #fff2e4;
+    font-size: larger;
+}
+p{
+    text-align: center;
+    color: #fff2e4;
+    font-size: large;
+    
+}
+
+
+.navbar .nav-menu{
+    float: right;
+}
+
+
+.nav-menu li{
+     display: inline-block;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff2e4;
+}
+
+.navbar .nav-menu{
+    display: flex;
+    gap: 40px;
+    margin: 25px;
+}
+
+
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .catalogos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .producto {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .producto:hover {
+      transform: translateY(-5px);
+    }
+
+    .producto img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    .producto h3 {
+      font-size: 18px;
+      margin: 10px 0 5px;
+    }
+
+    .producto p {
+      color: #444;
+      margin: 5px 0;
+    }
+
+    .producto button {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 8px 15px;
+      margin-top: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .producto button:hover {
+      background-color: #218838;
+    }
+
+    @media(max-width: 780px){
+       body{
+        margin-left: 18%;
+        background: linear-gradient(rgba(5, 7, 12, 0.75)), url('../Img/Aretes-de-oro-modernos-min.jpg') no-repeat center fixed;
+        background-repeat: no-repeat;
+        background-size: cover;        
+        background-position: center;
+            
+       }
+    }
